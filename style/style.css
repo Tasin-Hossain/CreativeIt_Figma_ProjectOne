@@ -5,6 +5,7 @@
     --title-color: #4D4D4D;
     --p-color: #717171;
     --white-color: #ffffff;
+    --bg-color: #F5F7FA;
 }
 *,
 *::before,
@@ -84,8 +85,8 @@ select {
     justify-content: space-between;
 }
 .btn{
-  padding: 10px 20px;
-  border-radius: 6px;
+  padding: 14px 32px;
+  border-radius: 4px;
   color: var(--white-color);
   background-color: var(--brand-color);
 }
@@ -93,6 +94,7 @@ select {
 nav{
     width: 100%;
     padding: 30px 0px;
+    background-color: var(--bg-color);
 }
 .container{
     max-width: 1152px;
@@ -112,10 +114,78 @@ nav{
 }
 .userLogin{
     color: var(--brand-color);
-    background-color: var(--white-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    
+    padding: 10px 20px;
+    border-radius: 6px; 
+}
+.userSignUp{
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: var(--white-color);
+  background-color: var(--brand-color);
+  font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
 }
 /* Header Section End */
+
+/* Hero Setcion Start */
+#heroSection{
+  /* min-height: 599px; */
+  background-color: var(--bg-color);
+  min-height:86vh;
+
+}
+#heroSection .container{
+  gap: 104px;
+  justify-content: space-between;
+  margin-bottom: 135px;
+
+}
+.heroSectionContent{
+  max-width: 657px;
+  padding-top: 161px;
+  flex-direction: column;
+  justify-content: center;
+}
+.heroSectionContent h1{
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+}
+.heroSectionContent h1 span{
+  color: var(--brand-color);
+}
+.heroSectionContent p{
+  color: var(--p-color);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.heroSectionLogo{
+  padding-top: 96px;
+  
+}
+.loader {
+  width: 100%;
+  justify-content: center;
+   gap: 8px;
+   padding-bottom: 16px;
+}
+.loader div{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--brand-color);
+
+}
+.loader div:nth-child(2){
+  background-color: #c2e1c7;
+}
+.loader div:nth-child(3){
+  background-color: #c2e1c7;
+}
+/* Hero Setcion End */
