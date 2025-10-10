@@ -90,6 +90,17 @@ select {
   color: var(--white-color);
   background-color: var(--brand-color);
 }
+.title{
+  font-size: 36px;
+  color: var(--title-color);
+  line-height: 44px;
+  font-weight: 600;
+}
+.paragraph{
+  color: var(--p-color);
+  font-size: 16px;
+  line-height: 24px;
+}
 
 /* Header Section Start */
 nav{
@@ -136,8 +147,9 @@ nav{
 /* Hero Setcion Start */
 #heroSection{
   background-color: var(--bg-color);
-  min-height:599px;
+  height: 599px;
   margin-bottom: 40px;
+  position: relative;
 
 }
 #heroSection .container{
@@ -163,9 +175,6 @@ nav{
   color: var(--brand-color);
 }
 .heroSectionContent p{
-  color: var(--p-color);
-  font-size: 16px;
-  line-height: 24px;
   margin-bottom: 32px;
 }
 .heroSectionLogo{
@@ -173,10 +182,11 @@ nav{
   
 }
 .loader {
-  width: 100%;
-  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 573px;
+
    gap: 8px;
-   padding-bottom: 16px;
 }
 .loader div{
   width: 10px;
@@ -193,3 +203,20 @@ nav{
 }
 /* Hero Setcion End */
 
+/* Clients Section Start */
+#ourClients{
+  min-height: 190px;
+}
+#ourClients .container{
+  max-width: 1152px;
+}
+.clientsContents h1{
+  text-align: center;
+  margin-bottom: 8px;
+}
+.clientsContents p{
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Clients Section End */
