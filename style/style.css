@@ -90,6 +90,7 @@ select {
   color: var(--white-color);
   background-color: var(--brand-color);
 }
+
 /* Header Section Start */
 nav{
     width: 100%;
@@ -97,7 +98,7 @@ nav{
     background-color: var(--bg-color);
 }
 .container{
-    max-width: 1152px;
+    max-width: 1230px;
     margin: auto;
 }
 .navMenu ul{
@@ -131,14 +132,15 @@ nav{
 }
 /* Header Section End */
 
+
 /* Hero Setcion Start */
 #heroSection{
-  /* min-height: 599px; */
   background-color: var(--bg-color);
   min-height:86vh;
 
 }
 #heroSection .container{
+  max-width: 1152px;
   gap: 104px;
   justify-content: space-between;
   margin-bottom: 135px;
