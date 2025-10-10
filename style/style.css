@@ -136,7 +136,8 @@ nav{
 /* Hero Setcion Start */
 #heroSection{
   background-color: var(--bg-color);
-  min-height:86vh;
+  min-height:599px;
+  margin-bottom: 40px;
 
 }
 #heroSection .container{
@@ -191,3 +192,4 @@ nav{
   background-color: #c2e1c7;
 }
 /* Hero Setcion End */
+
