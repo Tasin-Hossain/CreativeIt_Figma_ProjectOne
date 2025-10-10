@@ -1,4 +1,11 @@
 /* css reset code Start */
+:root{ 
+    --brand-color: #4CAF4F;
+    --text-color: #18191F;
+    --title-color: #4D4D4D;
+    --p-color: #717171;
+    --white-color: #ffffff;
+}
 *,
 *::before,
 *::after {
@@ -38,6 +45,10 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style:normal;
 }
 
 ul,
@@ -62,4 +73,3 @@ select {
   /* margin */
 }
 
-/* css reset code End */
