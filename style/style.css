@@ -89,6 +89,9 @@ select {
   border-radius: 4px;
   color: var(--white-color);
   background-color: var(--brand-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 .title {
   font-size: 36px;
@@ -294,3 +297,34 @@ nav {
   font-size: 14px;
 }
 /* Community section End */
+
+/* Unlock Section Start */
+#unlock{
+  min-height: 433px;
+}
+#unlock .container{
+  max-width: 1152px;
+}
+.unlockWrapper{
+  gap: 49px;
+}
+.unlockContant{
+  width: 661px;
+  height: 268px;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+.unlockContant h1{
+  width: 601px;
+  height: 88px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+.unlockContant p{
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+/* Unlock Section End */
