@@ -1,11 +1,11 @@
 /* css reset code Start */
-:root{ 
-    --brand-color: #4CAF4F;
-    --text-color: #18191F;
-    --title-color: #4D4D4D;
-    --p-color: #717171;
-    --white-color: #ffffff;
-    --bg-color: #F5F7FA;
+:root {
+  --brand-color: #4caf4f;
+  --text-color: #18191f;
+  --title-color: #4d4d4d;
+  --p-color: #717171;
+  --white-color: #ffffff;
+  --bg-color: #f5f7fa;
 }
 *,
 *::before,
@@ -49,7 +49,7 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style:normal;
+  font-style: normal;
 }
 
 ul,
@@ -75,148 +75,222 @@ select {
 }
 /* css reset code End */
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.align_items_center{
-    align-items: center;
+.align_items_center {
+  align-items: center;
 }
-.jsutify_content_space_between{
-    justify-content: space-between;
+.jsutify_content_space_between {
+  justify-content: space-between;
 }
-.btn{
+.btn {
   padding: 14px 32px;
   border-radius: 4px;
   color: var(--white-color);
   background-color: var(--brand-color);
 }
-.title{
+.title {
   font-size: 36px;
   color: var(--title-color);
   line-height: 44px;
   font-weight: 600;
 }
-.paragraph{
+.paragraph {
   color: var(--p-color);
   font-size: 16px;
   line-height: 24px;
 }
 
 /* Header Section Start */
-nav{
-    width: 100%;
-    padding: 30px 0px;
-    background-color: var(--bg-color);
+nav {
+  width: 100%;
+  padding: 30px 0px;
+  background-color: var(--bg-color);
 }
-.container{
-    max-width: 1230px;
-    margin: auto;
+.container {
+  max-width: 1230px;
+  margin: auto;
 }
-.navMenu ul{
-    gap: 50px;
-    font-size: 16px;
-    line-height: 24px;
+.navMenu ul {
+  gap: 50px;
+  font-size: 16px;
+  line-height: 24px;
 }
-.navMenu a{
-    color: var(--text-color);
+.navMenu a {
+  color: var(--text-color);
 }
-.navUser{
-    justify-content: center;
-    gap: 14px;
+.navUser {
+  justify-content: center;
+  gap: 14px;
 }
-.userLogin{
-    color: var(--brand-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    padding: 10px 20px;
-    border-radius: 6px; 
+.userLogin {
+  color: var(--brand-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
-.userSignUp{
+.userSignUp {
   padding: 10px 20px;
   border-radius: 6px;
   color: var(--white-color);
   background-color: var(--brand-color);
   font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
+  font-weight: 500;
+  line-height: 20px;
 }
 /* Header Section End */
 
-
 /* Hero Setcion Start */
-#heroSection{
+#heroSection {
   background-color: var(--bg-color);
-  height: 599px;
   margin-bottom: 40px;
   position: relative;
-
 }
-#heroSection .container{
+#heroSection .container {
   max-width: 1152px;
+  min-height: 599px;
   gap: 104px;
   justify-content: space-between;
-  margin-bottom: 135px;
-
 }
-.heroSectionContent{
+.heroSectionContent {
   max-width: 657px;
   padding-top: 161px;
   flex-direction: column;
   justify-content: center;
 }
-.heroSectionContent h1{
+.heroSectionContent h1 {
   color: var(--title-color);
   font-weight: 600;
   font-size: 64px;
   line-height: 76px;
 }
-.heroSectionContent h1 span{
+.heroSectionContent h1 span {
   color: var(--brand-color);
 }
-.heroSectionContent p{
+.heroSectionContent p {
   margin-bottom: 32px;
 }
-.heroSectionLogo{
+.heroSectionLogo {
   padding-top: 96px;
-  
 }
 .loader {
   position: absolute;
   left: 50%;
   top: 573px;
-
-   gap: 8px;
+  transform: translate(-50%, 50%);
+  gap: 8px;
 }
-.loader div{
+.loader div {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: var(--brand-color);
-
 }
-.loader div:nth-child(2){
+.loader div:nth-child(2) {
   background-color: #c2e1c7;
 }
-.loader div:nth-child(3){
+.loader div:nth-child(3) {
   background-color: #c2e1c7;
 }
 /* Hero Setcion End */
 
 /* Clients Section Start */
-#ourClients{
+#ourClients {
   min-height: 190px;
+
 }
-#ourClients .container{
+#ourClients .container {
   max-width: 1152px;
 }
-.clientsContents h1{
+.clientsContents h1 {
   text-align: center;
   margin-bottom: 8px;
 }
-.clientsContents p{
+.clientsContents p {
   text-align: center;
   margin-bottom: 16px;
 }
 
 /* Clients Section End */
+
+/* Community section satrt */
+#community{
+  min-height: 416px;
+  margin-bottom: 42px;
+}
+#community .container{
+  max-width: 1152px;
+}
+
+.communityContent h1{
+  text-align: center;
+  margin-bottom: 8px;
+}
+.communityContent p{
+  text-align: center;
+  margin-bottom: 16px;
+}
+.communityMembership{
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MembershipContent{
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+  border-radius: 8px;
+  height: 260px;
+  width: 299px;
+}
+.MembershipContentTwo{
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+  border-radius: 8px;
+  height: 280px;
+  width: 299px;
+}
+.MembershipContentTwo h1{
+  width: 267px;
+  height: 72px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.MembershipContentTwo p{
+  text-align: center;
+  width: 251px;
+  font-size: 14px;
+  width: 240px;
+  height: 80px;
+}
+.membershipLogo{
+  margin-bottom: 16px;
+}
+.MembershipContent h1{
+  width: 267px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.MembershipContent p{
+  text-align: center;
+  width: 251px;
+  font-size: 14px;
+}
+/* Community section End */
