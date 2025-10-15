@@ -110,8 +110,7 @@ nav {
   width: 100%;
   padding: 30px 0px;
   background-color: var(--bg-color);
-  position: fixed;
-  z-index: 100000;
+
 }
 .container {
   max-width: 1230px;
@@ -392,3 +391,57 @@ nav {
   max-width: 1152px;
 }
 /* Calender Section End */
+
+/* Customers Section Start */
+#customers{
+  margin-bottom: 48px;
+  background-color: var(--bg-color);
+}
+#customers .container{
+  min-width: 1152px;
+  height: 390px;
+  justify-content: center;
+  gap: 78px;
+
+}
+.customersLogo img{
+  width: 326px;
+}
+.customersContent{
+  width: 748px;
+  height: 324px;
+}
+.customersContent p{
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.customersContent h2{
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.miniTitle{
+  color: var(--brand-color);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+.customersClientLinks{
+  justify-content: center;
+}
+.customersClientLogo{
+  height: 48px;
+
+  gap: 32px;
+}
+.customersClientLinks{
+  gap: 8px;
+}
+.customersClientLinks a{
+  color: var(--brand-color);
+}
+/* Customers Section End */
