@@ -534,3 +534,124 @@ nav {
   right: 32px;
 }
 /* preFooter section end */
+
+/* footer section start */
+footer{
+  height: 328px;
+  background-color: rgba(38, 50, 56, 1);
+}
+footer .container{
+  min-width: 1152px;
+  height: 328px;
+  justify-content: space-around;
+  gap: 125px;
+}
+.footerLogo{
+  margin-bottom: 40px;
+}
+.copyRight h4{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(245, 247, 250, 1);
+  margin-bottom: 8px;
+}
+.copyRight h4:nth-child(2){
+  margin-bottom: 40px;
+}
+.socialLinks{
+  width: 176px;
+  height: 32px;
+  justify-content: space-between;
+}
+.socialLinks a{
+  background-color: #3c464c;
+  width: 32px ;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+}
+.socialLinks a img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+footer .partOne{
+  width: 350px;
+}
+footer .partTwo{
+  gap: 30px;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 635px;
+  height: 200px;
+}
+.footerCompany{
+  width: 160px;
+  height: 200px;
+}
+.footerCompany h1{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 20px;
+
+}
+.footerCompany li{
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: rgba(245, 247, 250, 1);
+  line-height: 20px;
+}
+.footerSupport{
+  width: 160px;
+  height: 200px;
+}
+.footerSupport h1{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 20px;
+}
+.footerSupport li{
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: rgba(245, 247, 250, 1);
+  line-height: 20px;
+}
+.footerEmail{
+  width: 255px;
+  height: 92px;
+}
+.footerEmail h1{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 24px;
+}
+.footerEmail form{
+  position: relative;
+}
+.footerEmail input{
+  background-color: #515b60;
+  width: 255px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 12px;
+  color: var(--white-color);
+}
+.footerEmail input:focus{
+  outline: 1px solid var(--brand-color);
+}
+.footerEmail img{
+  position: absolute;
+  right: 0px;
+  top: 11px;
+}
+/* footer section end */
